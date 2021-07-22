@@ -1,0 +1,15 @@
+name: Call56PingSystem
+version: ${project.version}
+main: com.github.kinoko2k.ping.Ping
+api-version: 1.16
+authors: [ Kinoko_2K ]
+description: PingSystem
+commands:
+  ping:
+    description: Ping check
+    usage: /<command>
+permissions:
+  ping.self:
+    default: true
+  ping.others:
+    default: op
